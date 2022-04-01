@@ -1,3 +1,9 @@
+% This code has been taken from The Decoding Toolbox (Hebart, Goergen, &
+% Haynes, 2015).
+% 
+% We adapted this code for our own analysis. For details, see the history
+% below.
+%
 % function cfg = decoding_defaults(cfg)
 %
 % Function where all defaults are declared and paths are set for decoding

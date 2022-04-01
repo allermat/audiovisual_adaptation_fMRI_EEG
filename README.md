@@ -1,9 +1,9 @@
-# Source data for research article "Audiovisual adaptation is expressed in spatial and decisional codes" 
+# Source code for research article "Audiovisual adaptation is expressed in spatial and decisional codes" 
 **by Máté Aller, Agoston Mihalik, and Uta Noppeney**
 
 ## Installation
 1. Clone or download this repository
-2. Download all depencies into their individual subfolders within audiovisual_adaptation_fMRI_EEG/code/toolbox/
+2. Download all dependencies into their individual subfolders within audiovisual_adaptation_fMRI_EEG/code/toolbox/
 3. Download source data from [here](https://doi.org/10.6084/m9.figshare.19469861.v2) and unpack into audiovisual_adaptation_fMRI_EEG/results/data/
 
 ## Usage
@@ -30,4 +30,4 @@
 - [suplabel](https://uk.mathworks.com/matlabcentral/fileexchange/7772-suplabel)
 
 ## Contributors
-The code was mainly written by Máté Aller and Agoston Mihalik. 
+The code was mainly written by Máté Aller and Agoston Mihalik. Some of the code in the psychometric and neurometric function fitting was kindly provided by David Meijer. Some of the code in the fMRI analysis have been adapted from The Decoding Toolbox (Hebart, Goergen, & Haynes, 2015).

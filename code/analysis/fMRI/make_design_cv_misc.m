@@ -1,3 +1,9 @@
+% This code has been taken from The Decoding Toolbox (Hebart, Goergen, &
+% Haynes, 2015).
+% 
+% We adapted this code for our own analysis. For details, see the history
+% below.
+%
 % function design = make_design_cv_misc(cfg)
 %
 %
