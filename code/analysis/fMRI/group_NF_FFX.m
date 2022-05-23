@@ -1,4 +1,4 @@
-function [roi, AIC] = group_NF_FFX
+function [roi, AIC] = group_NF_FFX(dataPath)
 
 % Psychometric function
 PF = @PAL_CumulativeNormal;
@@ -7,7 +7,7 @@ PF = @PAL_CumulativeNormal;
 StimLevels = [-12 -5 -2 0 2 5 12];
 
 % Load data
-out = run_mvpa_fmri;
+load(dataPath); 
 
 % Number of regions
 nROIs = numel(out.ROI);
@@ -30,7 +30,7 @@ end
 for i=1:nROIs
     % Initial fit to get parameter estimates
     for j=1:3
-        paramsInit(j,:) = fit_PF2(PF, StimLevels, NumPos{i}(j,:), ...
+        paramsInit(j,:) = fit_PF(PF, StimLevels, NumPos{i}(j,:), ...
             OutOfNum{i}(j,:), [], get_PAL_opt_precise);
     end
     
@@ -65,7 +65,8 @@ for i=1:nROIs
         % Generate simulated data
         for j=1:3
             NumPos_Sim(j,:) = DM_PF_SimulateObserverParametric_Beta(...
-                roi(i).mdl_fuller.params(j,:), StimLevels, OutOfNum{i}(j,:), PF, eta);
+                roi(i).mdl_fuller.params(j,:), StimLevels, OutOfNum{i}(j,:), ...
+                PF, roi(i).mdl_fuller.eta);
         end
         
         % Fit bootstrapped model

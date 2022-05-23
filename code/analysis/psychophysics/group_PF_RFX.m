@@ -72,7 +72,8 @@ for ss=1:nsubjects
         % Generate simulated data
         for i=1:3
             NumPos_Sim(i,:) = DM_PF_SimulateObserverParametric_Beta(...
-                out(ss).mdl_fuller.params(i,:), StimLevels, OutOfNum{ss}(i,:), PF, eta);
+                out(ss).mdl_fuller.params(i,:), StimLevels, OutOfNum{ss}(i,:), ...
+                PF, out(ss).mdl_fuller.eta);
         end
         
         % Fit bootstrapped model
