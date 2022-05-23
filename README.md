@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/476056377.svg)](https://zenodo.org/badge/latestdoi/476056377)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6572895.svg)](https://doi.org/10.5281/zenodo.6572895)
 
 # Source code for research article "Audiovisual adaptation is expressed in spatial and decisional codes" 
 **by Máté Aller, Agoston Mihalik, and Uta Noppeney**
