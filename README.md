@@ -3,6 +3,10 @@
 # Source code for research article "Audiovisual adaptation is expressed in spatial and decisional codes" 
 **by Máté Aller, Agoston Mihalik, and Uta Noppeney**
 
+Published in [Nature Communications](https://www.nature.com/articles/s41467-022-31549-0)
+
+Cite: Aller, M., Mihalik, A., & Noppeney, U. (2022). Audiovisual adaptation is expressed in spatial and decisional codes. Nature Communications, 13(1), 3924. https://doi.org/10.1038/s41467-022-31549-0
+
 ## Installation
 1. Clone or download this repository
 2. Download all dependencies into their individual subfolders within audiovisual_adaptation_fMRI_EEG/code/toolbox/
